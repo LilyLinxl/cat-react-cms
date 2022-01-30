@@ -2,6 +2,39 @@
 
 开箱即用的中台前端/设计解决方案。
 ​
+## 目录结构
+```
+├── config                   # 配置，包含路由，构建等配置
+├── mock                     # 本地模拟数据
+├── public
+│   └── favicon.png          # Favicon
+├── src
+│   ├── assets               # 本地静态资源
+│   ├── components           # 业务通用组件
+│   ├── layouts              # 通用布局
+│   ├── pages                # 业务页面入口和常用模板
+│	│	├─ dashbord          # 复杂路由组件用小写
+│	│	│  └─ analysis
+│	│	│     ├─ components
+│	│	│     ├─ data.d.ts
+│	│	│     ├─ index.less
+│	│	│     ├─ index.tsx
+│	│	│     ├─ service.ts
+│	│	│     ├─ util.ts
+│	│	│     └─ _mock.ts
+│	│	└─ Welcome           # 简单路由组件用大驼峰命名
+│	│	   ├─ components
+│	│	   ├─ index.less
+│	│	   └─ index.tsx
+│   ├── services             # 后台接口服务
+│   ├── utils                # 工具库
+│   ├── locales              # 国际化资源
+│   ├── index.less           # 全局样式
+│   └── index.tsx            # 入口文件
+├── README.md
+└── package.json
+```
+    
 
 
 ## 待支持特性
