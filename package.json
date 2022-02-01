@@ -21,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "checklint": "eslint --ext .ts,.tsx --ignore-path .gitignore .",
+    "reviselint": "eslint --fix --ext .ts,.tsx --ignore-path .gitignore ."
   },
   "eslintConfig": {
     "extends": [
